@@ -33,4 +33,8 @@ public class ComplexNumber {
         final double imaginaryNumerator = other.getReal() * this.getImaginary() - this.getReal() * other.getImaginary();
         return new ComplexNumber(realNumerator / commonDenominator, imaginaryNumerator / commonDenominator);
     }
+
+    public static void main(final String[] args){
+        System.out.println("4+8i");
+    }
 }
